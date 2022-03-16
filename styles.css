@@ -1,0 +1,70 @@
+body {
+    background: beige;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.style {
+    max-width: 1050px;
+    margin: auto;
+}
+.rose {
+    background-color: rgb(140, 218, 23);
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 12.5px rgba(0, 0, 0, 0.25);
+    display:flex;
+
+}
+.photo {
+    width:400px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 12.5px rgba(0, 0, 0, 0.25);
+}
+.rose-text {
+    margin-left:15px;
+    width: 50%;
+}
+.rose-attack{
+    background-color:rgb(255, 155, 155);
+    border-radius: 25px;
+    padding: 15px 15px;
+    width: 517.5px;
+    box-shadow: 4px 4px 12.5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+}
+.rose-super{
+    background-color: yellow;
+    border-radius: 25px;
+    padding: 15px 15px;
+    width: 517.5px;
+    box-shadow: 4px 4px 12.5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.text{
+    display:flex;
+}
+@media (max-width: 525px){
+    .rose{
+        display: block;
+        text-align:center;
+    }
+    .photo{
+        width: 300px;
+    }
+    .rose-text{
+        margin-left: 25%;
+    }    
+}
+@media (max-width: 1024px){
+    .rose{
+        display: block;
+        text-align:center;
+    }
+    .photo{
+        width: 400px;
+    }
+    .rose-text{
+        margin-left: 25%;
+    }    
+}
